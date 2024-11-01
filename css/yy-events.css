@@ -1,0 +1,133 @@
+.yyeBox{
+	border-bottom:1px dotted #999999;
+	padding-bottom:20px;
+	margin-bottom:12px;
+	overflow:hidden;
+}
+
+.yyeBox .yyeHead{
+	overflow:hidden;
+	padding:10px 0 20px;
+}
+
+.yyeBox .yyeInnerL{
+	float:left;
+	width:50%;
+}
+
+.yyeBox .yyeInnerR{
+	float:right;
+	width:50%;
+}
+
+.yyeBox .yyeDate,
+.yyeBox .yyeCatch,
+.yyeBox .yyeDescription{
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+.yyeBox .yyeDate{
+	font-weight:bold;
+}
+
+.yyeBox table{
+	width:100%;
+}
+
+.yyeBox table th{
+	width:30%;
+	background:#EFEFEF;
+}
+
+.yyeBox table tr,
+.yyeBox table td{
+	border:1px solid #999999;
+	padding:10px;
+}
+
+/* paging */
+.yyeNav {
+	margin: 1em auto;
+	line-height:2em;
+	text-align:center;
+}
+
+.yyeNav a.page-numbers,
+.yyeNav .current {
+	padding: 2px .4em;
+	border:solid 1px #EFEFEF;
+	text-decoration:none;
+}
+
+.yyeNav a.page-numbers:hover {
+}
+
+.yyeNav .current {
+	background: #EFEFEF;
+}
+
+.yyeNav .next, .yyeNav .prev {
+	border:0 none;
+	background:transparent;
+	text-decoration:underline;
+}
+
+#yye_calendar{
+	width:100%;
+    border: none;
+}
+
+#yye_calendar tr{
+    border: none;
+}
+
+#yye_calendar th{
+    border: none;
+	width:14.28%;
+    padding: 0;
+	margin:0;
+	text-align:center;
+}
+
+#yye_calendar td{
+    border: 1px solid #000;
+    min-height:601px;
+    padding: 10px 14px 8px;
+	margin:0;
+}
+
+#yye_calendar td span.d{
+}
+
+#yye_calendar a{
+	line-height:1.0em;
+	display: block;
+	margin:2px 0;
+}
+
+#yye_date_control{
+	width:100%;
+	overflow:hidden;
+}
+
+#yye_date_control li{
+	list-style:none;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+#yye_date_control li.yye_today{
+	width:40px;
+}
+#yye_date_control li.yye_before{
+	width:30px;
+}
+#yye_date_control li.yye_next{
+	width:30px;
+}
+#yye_date_control li.yye_now{
+	width:100px;
+}
+
